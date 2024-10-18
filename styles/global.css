@@ -96,7 +96,10 @@ a:hover {
 ul[role="list"] {
   list-style: none;
 }
-
+img {
+  max-width: 100%;
+  display: inline-block;
+}
 @media (width >= 80em) {
   :root {
     --fs-lg: 2rem;
