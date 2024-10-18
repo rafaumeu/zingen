@@ -17,7 +17,7 @@
   /* Brand Colors */
   --brand-primary-color: #f7B733;
   --brand-secondary-color: #FC4A1A;
-  --brand-gradient: linear-gradient(90deg, --brand-secondary-color 0%, --brand-primary-color 100%);
+  --brand-gradient: linear-gradient(90deg, var(--brand-secondary-color) 0%, var(--brand-primary-color) 100%);
 
   /*Base Colors */
   --bg-color: #09090B;

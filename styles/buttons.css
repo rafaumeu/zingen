@@ -1,5 +1,5 @@
 .btn {
-  --btn-bg-color: --text-color-primary;
+  --btn-bg-color: var(--text-color-primary);
   --btn-color: var(--bg-color);
   border: 0;
   background-color: transparent;
@@ -20,6 +20,8 @@
   --btn-color: var(--surface-color);
   background: var(--btn-bg-color);
   color: var(--btn-color);
+  -webkit-background-clip: initial;
+  background-clip: initial;
 }
 
 .btn-sm {
@@ -54,4 +56,19 @@
     color: transparent;
     position: relative;
   }
+}
+
+@media (width >= 80em) {
+    
+
+  .btn-sm {
+    padding: .75rem 1.5rem;
+    font-size: var(--fs-base);
+  }
+
+  .btn-md {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+  }
+
 }
