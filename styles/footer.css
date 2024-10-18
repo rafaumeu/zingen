@@ -1,0 +1,50 @@
+footer {
+  color: var(--text-color-secondary);
+  font-weight: var(--fw-md);
+
+  & .container {
+    padding-inline: 3rem;
+  }
+  & .container,
+  & .top {
+    gap: 3rem;
+  }
+  & nav.even-columns {
+    gap: 4rem;
+  }
+
+  & .top ul {
+    align-content: start;
+  }
+
+  & .title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+    color: var(--brand-primary-color);
+  }
+  & .bottom {
+    flex-wrap: wrap;
+    & > div {
+      margin-right: auto;
+    }
+    span {
+      font-size: 0.875rem;
+    }
+  }
+  @media (width >= 80em) {
+    & .container {
+      padding-inline: 0rem;
+      padding-bottom: 3rem;
+    }
+    & .top {
+      grid-template-columns: auto 1fr;
+      & nav {
+        margin-left: auto;
+        & ul {
+          width: 14rem;
+        }
+      }
+    }
+  }
+}
