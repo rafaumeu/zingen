@@ -72,23 +72,25 @@
       z-index: -1;
     }
   }
-  @media(width >= 80em) {
+  @media (min-width: 80em) { 
+    --fs-price: 2.5rem;
+    
     & header {
-      max-width: 50rem;
-      margin-inline: auto;
+      max-width: 50rem; 
+      margin-inline: auto; 
     }
-
-    & .premium {
-      & .card {
-        padding-bottom: 6rem;
-      }
+  
+    & .premium .card {
+      padding-bottom: 6rem; 
     }
+  
     .btn-md {
-      padding: .75rem 1.5rem;
-      font-size: var(--fs-base);
+      padding: 0.75rem 1.5rem; 
+      font-size: var(--fs-base); 
     }
+  
     & .card:nth-child(3) .separator {
-      margin-block: 1.5rem;
+      margin-block: 1.5rem; 
     }
   }
 }
