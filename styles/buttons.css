@@ -89,7 +89,7 @@
   } 
   #pricing .btn-md {
     padding: calc(.75rem / 0.76) calc(.5rem / 0.76);
-    font-size: calc(.7rem / 0.76);
+    font-size: calc(.6rem / 0.76);
   }
 }
 @media (min-width: 490px) and (max-width: 48rem) {
