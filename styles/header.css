@@ -2,7 +2,7 @@ header {
   & a:first-child {
     margin-right: auto;
   }
-  @media (max-width: 48rem) {
+  @media (min-width: 376px) and (max-width: 48rem) {
     & {
       & div > nav > a > img {
         width: calc(85px / 0.5);

@@ -72,7 +72,7 @@
   }
 
 }
-@media (max-width: 48rem) {
+@media (min-width: 376px) and (max-width: 48rem) {
   .btn-sm {
     padding: calc(.5rem / 0.5) calc(1rem / 0.5);
     font-size: calc(.875rem / 0.5);
