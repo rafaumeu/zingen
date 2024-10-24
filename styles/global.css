@@ -114,7 +114,7 @@ img {
     --py-lg: 2rem;
   }
 }
-@media (min-width: 376px) and (max-width: 48rem) {
+@media (min-width: 490px) and (max-width: 48rem) {
   :root {
     --fs-lg: calc(1.25rem / 0.5);
     --fs-xl: calc(1.5rem / 0.5);
