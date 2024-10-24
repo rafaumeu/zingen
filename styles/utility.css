@@ -64,7 +64,21 @@
     grid-auto-columns: 1fr;
   }
 }
-
+@media (min-width: 376px) and (max-width: 490px) {
+  .container {
+    --max-width: 490px;
+  }
+    .cards.container{
+    --max-width: 320px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+  }
+  .cards.even-columns {
+    --max-width: 490px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+  }
+}
 /* Para telas pequenas (<= 48rem) */
 @media (min-width: 490px) and (max-width: 48rem) {
   /* Container padrão para telas pequenas */

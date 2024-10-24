@@ -2,6 +2,13 @@ header {
   & a:first-child {
     margin-right: auto;
   }
+  @media (min-width: 376px) and (max-width: 490px) {
+    & {
+      & div > nav > a > img {
+        width: calc(85px / 0.76);
+      }
+    }
+  }
   @media (min-width: 490px) and (max-width: 48rem) {
     & {
       & div > nav > a > img {

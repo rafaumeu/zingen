@@ -4,7 +4,12 @@
   & .even-columns {
     gap: 2rem;
   }
-  @media (width: 48rem) {
+  @media (min-width: 376px) and (max-width: 490px) {
+    & .even-columns {
+      gap: calc(2rem / 0.76);
+    }
+  }
+  @media (min-width: 490px) and (max-width: 48rem) {
     & .even-columns {
       gap: calc(2rem / 0.5);
     }

@@ -47,6 +47,21 @@ footer {
       }
     }
   }
+  @media(min-width: 376px) and (max-width: 490px) {
+    & .container {
+      padding-inline: calc(3rem / 0.76);
+    }
+    & .top {
+      gap: calc(3rem / 0.76);
+    }
+    & nav.even-columns {
+      gap: calc(4rem / 0.76);
+    }
+    & .title {
+      font-size: calc(0.75rem / 0.76);
+      letter-spacing: calc(0.08rem / 0.76);
+    }
+  }
   @media(min-width: 490px) and (max-width: 48rem) {
     & .container {
       padding-inline: calc(3rem / 0.5);

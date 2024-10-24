@@ -114,6 +114,17 @@ img {
     --py-lg: 2rem;
   }
 }
+@media (min-width: 376px) and (max-width: 490px) {
+  :root {
+    --fs-lg: calc(1.25rem / 0.76);
+    --fs-xl: calc(1.5rem / 0.76);
+    --fs-2xl: calc(2.5rem / 0.76);
+    --px-lg: calc(1.5rem / 0.76);
+    --py-base: calc(1rem / 0.76);
+    --py-xl: calc(3rem / 0.76);
+    --py-lg: calc(1.5rem / 0.76);
+  }
+}
 @media (min-width: 490px) and (max-width: 48rem) {
   :root {
     --fs-lg: calc(1.25rem / 0.5);
