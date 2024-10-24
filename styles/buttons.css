@@ -72,3 +72,23 @@
   }
 
 }
+@media (max-width: 48rem) {
+  .btn-sm {
+    padding: calc(.5rem / 0.5) calc(1rem / 0.5);
+    font-size: calc(.875rem / 0.5);
+  }
+  
+  .btn-md {
+    padding: calc(.75rem / 0.5) calc(1.5rem / 0.5);
+    font-size: calc(1rem / 0.5);
+  }
+  
+  .btn-lg {
+    padding: calc(1rem / 0.5) calc(2rem / 0.5);
+    font-size: calc(1.125rem / 0.5);
+  }
+  #pricing .btn-md {
+    padding: calc(.75rem / 0.5) calc(.5rem / 0.5);
+    font-size: calc(.7rem / 0.5);
+  }
+}

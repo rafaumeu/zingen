@@ -3,15 +3,19 @@
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
   margin-inline: auto;
 }
+
 .py-base {
   padding-block: var(--py-base);
 }
+
 .py-lg {
   padding-block: var(--py-lg);
 }
+
 .py-xl {
   padding-block: var(--py-xl);
 }
+
 .px-lg {
   padding-inline: var(--px-lg);
 }
@@ -19,25 +23,33 @@
 .desktop-only {
   display: none;
 }
+
 .even-columns {
   display: grid;
   gap: 1rem;
 }
+
 .flex {
   display: flex;
 }
+
 .items-center {
   align-items: center;
 }
+
 .gap-1 {
   gap: 1rem;
 }
+
 .gap-1\.5 {
   gap: 1.5rem;
 }
+
 .grid {
   display: grid;
 }
+
+/* Para telas grandes (>= 80em) */
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
@@ -46,8 +58,34 @@
   .desktop-only {
     display: initial;
   }
+
   .even-columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+}
+
+/* Para telas pequenas (<= 48rem) */
+@media (max-width: 48rem) {
+  /* Container padrão para telas pequenas */
+  .container {
+    --max-width: 48rem;
+  }
+
+  /* Se tiver .card e .container, aplica o max-width de 375px */
+  .cards.container,
+  .cards.even-columns {
+    --max-width: 420px;
+    width: min(var(--max-width), 100% - var(--px-lg) * 2);
+    margin-inline: auto;
+  }
+
+  /* Ajustes de espaçamento */
+  .gap-1 {
+    gap: calc(1rem / 0.5);
+  }
+
+  .gap-1\.5 {
+    gap: calc(1.5rem / 0.5);
   }
 }

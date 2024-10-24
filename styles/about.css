@@ -4,4 +4,9 @@
   & .even-columns {
     gap: 2rem;
   }
+  @media (width: 48rem) {
+    & .even-columns {
+      gap: calc(2rem / 0.5);
+    }
+  }
 }

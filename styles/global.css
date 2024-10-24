@@ -114,3 +114,14 @@ img {
     --py-lg: 2rem;
   }
 }
+@media (max-width: 48rem) {
+  :root {
+    --fs-lg: calc(1.25rem / 0.5);
+    --fs-xl: calc(1.5rem / 0.5);
+    --fs-2xl: calc(2.5rem / 0.5);
+    --px-lg: calc(1.5rem / 0.5);
+    --py-base: calc(1rem / 0.5);
+    --py-xl: calc(3rem / 0.5);
+    --py-lg: calc(1.5rem / 0.5);
+  }
+}
