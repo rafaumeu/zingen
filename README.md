@@ -1,31 +1,31 @@
-# Zingen - Karaokê
+# Zingen - Karaoke  
 
-![Logo do Zingen](assets/icons/logo.svg)
+![Zingen Logo](assets/icons/logo.svg)  
 
-## Descrição
+## Description  
 
-**Zingen** é o aplicativo que transforma a experiência de cantar em algo incrível e acessível para todos! Com nossa tecnologia de Inteligência Artificial, removemos a voz original das músicas, permitindo que você cante suas músicas favoritas como um verdadeiro artista. O Zingen não é apenas um karaokê; é uma plataforma que ajuda você a aprimorar suas habilidades vocais, se divertir e se conectar com uma comunidade apaixonada por música.
+**Zingen** is the app that transforms singing into an incredible and accessible experience for everyone! With our Artificial Intelligence technology, we remove the original vocals from songs, allowing you to sing your favorite tracks like a true artist. Zingen is not just karaoke; it’s a platform designed to help you enhance your vocal skills, have fun, and connect with a community passionate about music.  
 
-## Funcionalidades
+## Features  
 
-- **Biblioteca Imensa:** Acesse uma vasta coleção de músicas e cante sem limites!
-- **Experiência Gamificada:** Desafie-se e receba pontuações baseadas na sua performance.
-- **Gravação de Performances:** Grave suas sessões de canto em áudio e vídeo para compartilhar com amigos ou acompanhar sua evolução.
-- **Interação Comunitária:** Compartilhe suas gravações e descubra o talento de outros usuários.
-- **Letras em Tempo Real:** Nunca perca o ritmo com letras sincronizadas e a opção de ativar a voz original para auxiliar.
+- **Extensive Library:** Access a vast collection of songs and sing without limits!  
+- **Gamified Experience:** Challenge yourself and receive scores based on your performance.  
+- **Performance Recording:** Record your singing sessions in audio and video to share with friends or track your progress.  
+- **Community Interaction:** Share your recordings and discover the talent of other users.  
+- **Real-Time Lyrics:** Never miss a beat with synced lyrics and the option to activate the original vocals for support.  
 
-## Planos e Preços
+## Plans and Pricing  
 
-Oferecemos diferentes planos para atender às suas necessidades:
+We offer various plans to meet your needs:  
 
-- **Básico:** Grátis com anúncios e até 5 músicas por dia.
-- **Premium:** R$ 24,90/mês, sem anúncios e acesso ilimitado a todas as músicas.
-- **Família:** R$ 21,90/mês por pessoa (mínimo de 4 pessoas), ideal para quem ama cantar em grupo.
+- **Basic:** Free with ads and up to 5 songs per day.  
+- **Premium:** $4.99/month, ad-free with unlimited access to all songs.  
+- **Family:** $4.49/month per person (minimum of 4 users), perfect for group singing fun.  
 
-## Como Baixar
+## How to Download  
 
-Desperte seu potencial musical e junte-se à comunidade Zingen! Baixe agora na [Apple Store](#) ou [Play Store](#).
+Unleash your musical potential and join the Zingen community! Download now on the [Apple Store](#) or [Play Store](#).  
 
-## Contribua
+## Contribute  
 
-Estamos sempre abertos a melhorias! Se você tem sugestões ou deseja contribuir com o projeto, entre em contato conosco ou abra uma issue no nosso repositório.
+We’re always open to improvements! If you have suggestions or wish to contribute to the project, reach out to us or open an issue in our repository.
